@@ -20,7 +20,6 @@ namespace BetterMovement
         public class BetterMovement : MonoBehaviour
         {
             private ulong hostSteamId = 0;
-            private Camera camera = null;
             private GameObject client = null;
             private Rigidbody clientBody = null;
             private float elapsed = 0f;
@@ -35,7 +34,7 @@ namespace BetterMovement
 
                 elapsed += Time.deltaTime; //Add how much time has elapsed since the last call of this method
 
-                //Check if camera, player and hostSteamId are instanced to avoid errors
+                //Check if client and hostSteamId are instanced to avoid errors
                 if (client == null || hostSteamId == 0) return;
 
                 //Check if its time to send a new packet (30 packets/secondes) to avoid overloading the host
