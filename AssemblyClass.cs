@@ -1,0 +1,6 @@
+global using LobbySettings = MonoBehaviourPublicObjomaOblogaTMObseprUnique;
+global using SteamManager = MonoBehaviourPublicObInUIgaStCSBoStcuCSUnique;
+global using GameUI = MonoBehaviourPublicGaroloGaObInCacachGaUnique;
+global using LobbyManager = MonoBehaviourPublicCSDi2UIInstObUIloDiUnique;
+global using EffectManager = MonoBehaviourPublicGataInefObInUnique;
+global using ClientSend = MonoBehaviourPublicInpabyInInInUnique;
